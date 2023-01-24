@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <title>samuel 06</title>
+</head>
+
+<body>
+    <header class="container-fluid ">
+        <div class="row no-gutters p-2 ">
+            <div class="col d-flex justify-content-between align-items-center">
+                <div class=" fw-bold text-grande w-75">Fresh Bs</div>
+                <div class=" d-flex mt-2 ">
+                    <input class="w-75 p-1 input-negro" type="text">
+                    <button class="px-4 border-0 bg-transparent"><img width="28px" src="img/buscar-negro.png"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-none d-md-block pt-2 border-top border-white bg-azul">
+            <div class="col d-flex justify-content-between px-4 pt-2">
+                <select name="" id="" class="select02">
+                    <option value="" disabled selected>Alphabetically</option>
+                    <option value="pepe">pepe</option>
+                    <option value="pepe">pepe</option>
+                    <option value="pepe">pepe</option>
+                    <option value="pepe">pepe</option>
+                </select>
+
+                <div class="d-flex justify-content-around menu_arriba">
+                    <button><img width="26px" src="img/casa-blanca.png"></button>
+                    <button><img width="26px" src="img/carrito-blanco.png"></button>
+                    <button><img width="26px" src="img/lista.png"></button>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- login -->
+
+
+    <div class="container-fluid pt-5 border-top border-2 border-secondary">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-10 col-md-9 col-lg-8 mt-2 px-0 altura">
+                <div class="position-relative py-3 px-0">
+                    <div class="azul">
+                        <div class="img-usuario d-flex justify-content-center py-5 w-75 ">
+                            <img src="img/usuario.png" width="180px">
+                        </div>
+                        <div class="info2">
+                            <h3 class="text-white fw">User Name/Email</h3>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="registro-paga">
+                    <!-- formulario de registro -->
+                    <div class="d-flex flex-column justify-content-around align-items-center from-registro margen-abajo">
+                        <div class="col-12 col-md-9 d-flex justify-content-center mt-5">
+                            <input type="text" class="form-control py-2 rounded-pill input-border" placeholder="Name">
+                        </div>
+
+                        <div class="col-12 col-md-9 d-flex justify-content-center mt-4">
+                            <input type="text" class="form-control py-2  rounded-pill input-border"
+                                placeholder="Last Name">
+                        </div>
+
+                        <div class="col-12 col-md-9 d-flex justify-content-center mt-4">
+                            <input type="text" class="form-control py-2 rounded-pill input-border"
+                                placeholder="Adderss">
+                        </div>
+
+                        <div class="col-7 d-flex justify-content-start mt-3">
+                            <p class="fw-bold fs-5 color_verde">+ add addres</p>
+                        </div>
+
+                        <div class="col-12 col-md-9 d-flex justify-content-center mt-1">
+                            <input type="text" class="form-control py-2  rounded-pill input-border" placeholder="Phone">
+                        </div>
+
+                        <div class="col-12 col-md-9 d-flex justify-content-center mt-4 mb-4">
+                            <input type="text" class="form-control py-2  rounded-pill input-border"
+                                placeholder="Home phone">
+                        </div>
+
+                        <!-- metodos de pago -->
+
+                        <div class="col-11 col-md-7 mt-2 border-top border-1 border-secondary">
+                            <h4 class="pt-3 text-secondary text-center">Payments Methods</h4>
+                            <table class="table datos-pagos">
+                                <thead class="overflow-auto">
+                                    <tr>
+                                        <th scope="col">Method</th>
+                                        <th scope="col">Expires</th>
+                                        <th scope="col">Delete</th>
+                                        <th scope="col">Default</th>
+                                    </tr>
+
+                                    
+                                </thead>
+                                <tbody class="overflow-auto">
+                                    <!-- metodo -->
+                                    <tr>
+                                        <th scope="row">
+                                            <span><img src="img/master-card.png" width="30px"></span>
+                                            mastercard ending in 7016
+                                        </th>
+                                        <td>06/17</td>
+                                        <td><button class="border-0 bg-transparent"><img src="img/marca-x.png"></button>
+                                        </td>
+                                        <td class="">
+                                            <div class="main">
+                                                <input class="switch" type="checkbox">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                      <!-- metodo -->
+                                    <tr>
+                                        <th scope="row">
+                                            <span><img src="img/visa.png" width="30px"></span>
+                                            visa ending in 7817
+                                        </th>
+                                        <td>06/17</td>
+                                        <td><button class="border-0 bg-transparent"><img src="img/marca-x.png"></button>
+                                        </td>
+                                        <td class="">
+                                            <div class="main">
+                                                <input class="switch" type="checkbox">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                      <!-- metodo -->
+                                    <tr>
+                                        <th scope="row">
+                                            <span><img src="img/paypal.png" width="30px"></span>
+                                            paypal only
+                                        </th>
+                                        <td>06/17</td>
+                                        <td><button class="border-0 bg-transparent"><img src="img/marca-x.png"></button>
+                                        </td>
+                                        <td class="">
+                                            <div class="main">
+                                                <input class="switch" type="checkbox">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                      <!-- metodo -->
+                                    <tr>
+                                        <th scope="row">
+                                            <span><img src="img/express.png" width="30px"></span>
+                                            express only
+                                        </th>
+                                        <td>06/17</td>
+                                        <td><button class="border-0 bg-transparent"><img src="img/marca-x.png"></button>
+                                        </td>
+                                        <td class="">
+                                            <div class="main">
+                                                <input class="switch" type="checkbox">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                      <!-- metodo -->
+                                    <tr>
+                                        <th scope="row">
+                                            <span><img src="img/walmart.png" width="30px"></span>
+                                            walmart only
+                                        </th>
+                                        <td>06/17</td>
+                                        <td><button class="border-0 bg-transparent"><img src="img/marca-x.png"></button>
+                                        </td>
+                                        <td class="">
+                                            <div class="main">
+                                                <input class="switch" type="checkbox">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- MENU ABAJO -->
+    <div class="container d-sm-block d-md-none">
+        <div class="row  no-gutters">
+            <div class="col">
+                <div class="d-flex justify-content-around menu_abajo">
+                    <button><img width="26px" src="img/hogar.png"></button>
+                    <button><img width="26px" src="img/carrito-verde.png"></button>
+                    <button><img width="26px" src="img/menu.png"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+</html>

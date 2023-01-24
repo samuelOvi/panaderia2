@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <title>samuel 04</title>
+</head>
+
+<body>
+    <header class="container-fluid">
+        <div class="row justify-content-around align-items-center m-1">
+            <div class="d-flex flex-column col-md-2 col-12">
+                <div class="fw-bold text_azul text-grande">Fresh Bs</div>
+                <div class="fw-light  fs-3 text_azul">Address 1 </div>
+            </div>
+
+            <div class="d-flex justify-content-center pt-2 px4 col-12 col-md-7 h-100 buscar">
+                <input class="w-75 p-1" type="text">
+                <button class="px-4"><img src="img/buscar.png" alt=""></button>
+            </div>
+
+            <div class=" col col-md-3 mt-2">
+                <h1 class="pb-2 text-secondary ">Bakery</h1>
+            </div>
+        </div>
+
+            <!-- carrusel -->
+        <div class="row">
+          <div id="carouselExampleControls" class="carousel slide p-0" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/banner/01.jpg" class="d-block w-100 img-carrusel">
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner/02.jpg" class="d-block w-100 img-carrusel">
+              </div>
+              <div class="carousel-item">
+                <img src="img/banner/03.jpg" class="d-block w-100 img-carrusel">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="row d-none d-md-block   pt-2 border-top border-white bg-azul">
+            <div class="col d-flex justify-content-between px-4 pt-2">
+                <select name="" id="" class="select02">
+                    <option value="" disabled selected>Alphabetically</option>
+                    <option value="pepe">pepe</option>
+                    <option value="pepe">pepe</option>
+                    <option value="pepe">pepe</option>
+                    <option value="pepe">pepe</option>
+                </select>
+
+                <div class="d-flex justify-content-around menu_arriba">
+                    <button><img width="26px" src="img/casa-blanca.png"></button>
+                    <button><img width="26px" src="img/carrito-blanco.png"></button>
+                    <button><img width="26px" src="img/lista.png"></button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid detalles border-top border-2 border-secondar">
+        <div class="row justify-content-center">
+            <div class="col-11 col-sm-9 col-md-6  col-lg-4 col-xxl-3">
+                <div class="centro position-relative">
+                    <div class="verde">
+                        <div class="position-absolute top-0 d-flex justify-content-center p-1 w-75 ft-item">
+                            <img src="img/sandwich.png" width="200px">
+                        </div>
+
+                        <div class="info">
+                            <h3 class="text-white pb-1 border-bottom border-1 border-white">Title Lorem Ipsum</h3>
+                            <p class="text-black">Size Lorem Ipsum</p>
+                            <h4 class="text-black fw-bold">$0.00</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center gap-3">
+                <input class="input_cantidad fs-4 fw-bold" type="number" value="1">
+                <button class="add_verde py-2 px-4">Add to cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- produtos -->
+
+    <div class="container-fluid mt-4 ">
+        <div class="">
+            <h4 class="text-center mx-4 pt-5 border-top border-1 border-secondar color_verde">RELATED PRODUCTS</h4>
+            <div class="row justify-content-around gap-2">
+
+                <!-- PRODUCTO -->
+                <div class="col-5 col-md-4 col-lg-3 d-flex align-items-center flex-column position-relative">
+                    <div class="items2">
+                        <a href="#" class="position-absolute top end-0 mt-3 mx-3"><img src="img/boton-agregar.png"
+                                width="30px"></a>
+                        <img class="w-75" src="img/sandwich.png">
+                    </div>
+                    <div class="d-flex flex-column w-100">
+                        <h5 class="text_azul">Title lorem Ipsum</h5>
+                        <p class="text-secondary pt-1 border-top border-2 border-secondar">Size Lorem Ipsum</p>
+                        <p class="fw-bold fs-5">$0.00</p>
+                    </div>
+                </div>
+                <!-- PRODUCTO -->
+                <div class="col-5 col-md-4 col-lg-3 d-flex align-items-center flex-column position-relative">
+                    <div class="items2">
+                        <a href="#" class="position-absolute top end-0 mt-3 mx-3"><img src="img/boton-agregar.png"
+                                width="30px"></a>
+                        <img class="w-75" src="img/sandwich.png">
+                    </div>
+                    <div class="d-flex flex-column w-100">
+                        <h5 class="text_azul">Title lorem Ipsum</h5>
+                        <p class="text-secondary pt-1 border-top border-2 border-secondar">Size Lorem Ipsum</p>
+                        <p class="fw-bold fs-5">$0.00</p>
+                    </div>
+                </div>
+                <!-- PRODUCTO -->
+                <div class="col-5 col-md-4 col-lg-3 d-flex align-items-center flex-column position-relative">
+                    <div class="items2">
+                        <a href="#" class="position-absolute top end-0 mt-3 mx-3"><img src="img/boton-agregar.png"
+                                width="30px"></a>
+                        <img class="w-75" src="img/sandwich.png">
+                    </div>
+                    <div class="d-flex flex-column w-100">
+                        <h5 class="text_azul">Title lorem Ipsum</h5>
+                        <p class="text-secondary pt-1 border-top border-2 border-secondar">Size Lorem Ipsum</p>
+                        <p class="fw-bold fs-5">$0.00</p>
+                    </div>
+                </div>
+                <!-- PRODUCTO -->
+                <div class="col-5 col-md-4 col-lg-3 d-flex align-items-center flex-column position-relative">
+                    <div class="items2">
+                        <a href="#" class="position-absolute top end-0 mt-3 mx-3"><img src="img/boton-agregar.png"
+                                width="30px"></a>
+                        <img class="w-75" src="img/sandwich.png">
+                    </div>
+                    <div class="d-flex flex-column w-100">
+                        <h5 class="text_azul">Title lorem Ipsum</h5>
+                        <p class="text-secondary pt-1 border-top border-2 border-secondar">Size Lorem Ipsum</p>
+                        <p class="fw-bold fs-5">$0.00</p>
+                    </div>
+                </div>
+                <!-- PRODUCTO -->
+                <div class="col-5 col-md-4 col-lg-3 d-flex align-items-center flex-column position-relative">
+                    <div class="items2">
+                        <a href="#" class="position-absolute top end-0 mt-3 mx-3"><img src="img/boton-agregar.png"
+                                width="30px"></a>
+                        <img class="w-75" src="img/sandwich.png">
+                    </div>
+                    <div class="d-flex flex-column w-100">
+                        <h5 class="text_azul">Title lorem Ipsum</h5>
+                        <p class="text-secondary pt-1 border-top border-2 border-secondar">Size Lorem Ipsum</p>
+                        <p class="fw-bold fs-5">$0.00</p>
+                    </div>
+                </div>
+                <!-- PRODUCTO -->
+                <div class="col-5 col-md-4 col-lg-3 d-flex align-items-center flex-column position-relative">
+                    <div class="items2">
+                        <a href="#" class="position-absolute top end-0 mt-3 mx-3"><img src="img/boton-agregar.png"
+                                width="30px"></a>
+                        <img class="w-75" src="img/sandwich.png">
+                    </div>
+                    <div class="d-flex flex-column w-100">
+                        <h5 class="text_azul">Title lorem Ipsum</h5>
+                        <p class="text-secondary pt-1 border-top border-2 border-secondar">Size Lorem Ipsum</p>
+                        <p class="fw-bold fs-5">$0.00</p>
+                    </div>
+                </div>
+                <!-- PRODUCTO -->
+                <div class="col-5 col-md-4 col-lg-3 d-flex align-items-center flex-column position-relative">
+                    <div class="items2">
+                        <a href="#" class="position-absolute top end-0 mt-3 mx-3"><img src="img/boton-agregar.png"
+                                width="30px"></a>
+                        <img class="w-75" src="img/sandwich.png">
+                    </div>
+                    <div class="d-flex flex-column w-100">
+                        <h5 class="text_azul">Title lorem Ipsum</h5>
+                        <p class="text-secondary pt-1 border-top border-2 border-secondar">Size Lorem Ipsum</p>
+                        <p class="fw-bold fs-5">$0.00</p>
+                    </div>
+                </div>
+                <!-- PRODUCTO -->
+                <div class="col-5 col-md-4 col-lg-3 d-flex align-items-center flex-column position-relative">
+                    <div class="items2">
+                        <a href="#" class="position-absolute top end-0 mt-3 mx-3"><img src="img/boton-agregar.png"
+                                width="30px"></a>
+                        <img class="w-75" src="img/sandwich.png">
+                    </div>
+                    <div class="d-flex flex-column w-100">
+                        <h5 class="text_azul">Title lorem Ipsum</h5>
+                        <p class="text-secondary pt-1 border-top border-2 border-secondar">Size Lorem Ipsum</p>
+                        <p class="fw-bold fs-5">$0.00</p>
+                    </div>
+                </div>
+                <!-- PRODUCTO -->
+                <div class="col-5 col-md-4 col-lg-3 d-flex align-items-center flex-column position-relative">
+                    <div class="items2">
+                        <a href="#" class="position-absolute top end-0 mt-3 mx-3"><img src="img/boton-agregar.png"
+                                width="30px"></a>
+                        <img class="w-75" src="img/sandwich.png">
+                    </div>
+                    <div class="d-flex flex-column w-100">
+                        <h5 class="text_azul">Title lorem Ipsum</h5>
+                        <p class="text-secondary pt-1 border-top border-2 border-secondar">Size Lorem Ipsum</p>
+                        <p class="fw-bold fs-5">$0.00</p>
+                    </div>
+                </div>
+                <!-- PRODUCTO -->
+                <div class="col-5 col-md-4 col-lg-3 d-flex align-items-center flex-column position-relative">
+                    <div class="items2">
+                        <a href="#" class="position-absolute top end-0 mt-3 mx-3"><img src="img/boton-agregar.png"
+                                width="30px"></a>
+                        <img class="w-75" src="img/sandwich.png">
+                    </div>
+                    <div class="d-flex flex-column w-100">
+                        <h5 class="text_azul">Title lorem Ipsum</h5>
+                        <p class="text-secondary pt-1 border-top border-2 border-secondar">Size Lorem Ipsum</p>
+                        <p class="fw-bold fs-5">$0.00</p>
+                    </div>
+                </div>
+                <!-- PRODUCTO -->
+                <div class="col-5 col-md-4 col-lg-3 d-flex align-items-center flex-column position-relative">
+                    <div class="items2">
+                        <a href="#" class="position-absolute top end-0 mt-3 mx-3"><img src="img/boton-agregar.png"
+                                width="30px"></a>
+                        <img class="w-75" src="img/sandwich.png">
+                    </div>
+                    <div class="d-flex flex-column w-100">
+                        <h5 class="text_azul">Title lorem Ipsum</h5>
+                        <p class="text-secondary pt-1 border-top border-2 border-secondar">Size Lorem Ipsum</p>
+                        <p class="fw-bold fs-5">$0.00</p>
+                    </div>
+                </div>
+                <!-- PRODUCTO -->
+                <div class="col-5 col-md-4 col-lg-3 d-flex align-items-center mb-4 pb-4 flex-column position-relative">
+                    <div class="items2">
+                        <a href="#" class="position-absolute top end-0 mt-3 mx-3"><img src="img/boton-agregar.png"
+                                width="30px"></a>
+                        <img class="w-75" src="img/sandwich.png">
+                    </div>
+                    <div class="d-flex flex-column w-100">
+                        <h5 class="text_azul">Title lorem Ipsum</h5>
+                        <p class="text-secondary pt-1 border-top border-2 border-secondar">Size Lorem Ipsum</p>
+                        <p class="fw-bold fs-5">$0.00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  <!-- footer -->
+  <footer class="container-fluid bg-oscurito">
+    <div class="row justify-content-around py-3">
+
+      <div class="col-md-3 col-11 text-center text-md-start text-secondary mt-3">
+        <h5 class="fw-bold px-2">promocion</h5>
+        <div>
+          <img src="img/banner/01.jpg" height="180px" width="280px">
+        </div>
+      </div>
+
+      <div class="col-md-3 col-11 text-center text-md-start text-secondary mt-3">
+          <h5 class="fw-bold px-2">Informacion</h5>
+          <ul class="py-2">
+            <li class="py-1">Lorem ipsum </li>
+            <li class="py-1">amet consectetur</li>
+            <li class="py-1">adipisicing elit</li>
+            <li class="py-1">Eligendi veniam</li>
+          </ul>
+      </div>
+
+      <div class="col-md-3 col-11 text-center text-md-start text-secondary my-3">
+        <h5 class="fw-bold px-2">Contactanos</h5>
+        <ul class="py-2 d-flex flex-column align-items-center align-items-md-start">
+          <li class="d-flex"><img src="img/mapa.png"><p>Lorem ipsum</p></li>
+          <li class="d-flex"><img src="img/llamar.png"><p>0424585854 </p> </li>
+          <li class="d-flex"><img src="img/llamar.png"><p>0424585854 </p> </li>
+          <li class="d-flex"><img src="img/email.png"> <p>asikdhas@gmail.com </p></li>
+        </ul>
+      </div>
+
+    </div>
+  </footer>
+
+    <!-- MENU ABAJO TELEFONO-->
+    <div class="container-fluid d-sm-block d-md-none">
+        <div class="row no-gutters">
+            <div class="col">
+                <div class="d-flex justify-content-around menu_abajo">
+                    <button><img width="26px" src="img/hogar.png"></button>
+                    <button><img width="26px" src="img/carrito-verde.png"></button>
+                    <button><img width="26px" src="img/menu.png"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+   
+</body>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+</html>
